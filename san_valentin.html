@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz San Valentín</title>
+    <link rel="stylesheet" href="san_valentin.css">
+</head>
+<body onload="createFallingElements(); playMusic();">
+    <h1>💖 Feliz San Valentín, Mi Morena 💖</h1>
+    <p>Presiona el botón para ver tu sorpresa</p>
+    <button onclick="showMessage();">Ver Sorpresa</button>
+    <p id="message">Eres lo mejor que me ha pasado, ¡Te Quiero Mucho! 💕</p>
+    <button id="continue-button" onclick="showLoveMessage();">Continuar</button>
+    <p id="love-message">TE LOVO MORENA 💖💖💖</p>
+    
+    <audio id="bg-music" loop>
+        <source src="3AM - Vidas pasadas.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    
+    <script src="san_valentin.js"></script>
+    </script>
+</body>
+</html>
